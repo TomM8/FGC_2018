@@ -145,6 +145,20 @@ public class TeleOp extends OpMode
         }
         // endregion
 
+        //region Rubber Servo    (gp1)
+
+        if(gamepad1.dpad_right){
+            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
+        }
+        else if(gamepad1.dpad_left){
+            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
+        }
+        else {
+            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_STOP);
+        }
+
+        //endregion
+
         // Show the elapsed game time and wheel power.
         telemetry.addData("Status", "Run Time: " + runtime.toString());
         telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
