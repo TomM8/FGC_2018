@@ -38,7 +38,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class Basic_Bot
 {
     /* Public OpMode members. */
-    protected DcMotor leftDrive = null;  // 6 DC Motors used
+    protected DcMotor leftDrive = null;  // 7 DC Motors in use
     protected DcMotor rightDrive = null;
     protected DcMotor leftIntake = null;
     protected DcMotor rightIntake = null;
@@ -46,8 +46,7 @@ public class Basic_Bot
     protected DcMotor rightLift = null;
     protected DcMotor pushingWall = null;
 
-    // All servos
-    protected Servo   solarGrabber  = null;
+    protected Servo   solarGrabber  = null; //  3 Servos in use
     protected Servo   solarLift     = null;
     protected Servo   rubberCoiler  = null;
 
@@ -80,6 +79,7 @@ public class Basic_Bot
         rightIntake = hwMap.get(DcMotor.class, "right_intake");
         leftLift = hwMap.get(DcMotor.class, "left_tilt");
         rightLift = hwMap.get(DcMotor.class, "right_tilt");
+        pushingWall = hwMap.get(DcMotor.class, "pushing_wall");
 
         // Define Motor Directions
         leftDrive.setDirection(DcMotor.Direction.REVERSE);  // Positive input should drive the robot forward
@@ -94,14 +94,17 @@ public class Basic_Bot
         rightIntake.setPower(0);
         leftLift.setPower(0);
         rightLift.setPower(0);
+        pushingWall.setPower(0);
 
         // Define and initialize ALL installed servos.
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
         rubberCoiler = hwMap.get(Servo.class, "rubber_coiler");
+        solarLift    = hwMap.get(Servo.class, "solar_lift");
 
         // MAYBE init servo positions
         solarGrabber.setPosition(CONTINUOUS_SERVO_STOP);
         solarLift.setPosition(CONTINUOUS_SERVO_STOP);
+        rubberCoiler.setPosition(CONTINUOUS_SERVO_STOP);
 
         //Change from tom
     }
