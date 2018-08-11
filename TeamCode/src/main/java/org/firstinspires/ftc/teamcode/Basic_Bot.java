@@ -38,25 +38,23 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 public class Basic_Bot
 {
     /* Public OpMode members. */
-    protected DcMotor leftDrive = null;  // all dc motors in kit used
+    protected DcMotor leftDrive = null;  // 6 DC Motors used
     protected DcMotor rightDrive = null;
     protected DcMotor leftIntake = null;
     protected DcMotor rightIntake = null;
     protected DcMotor leftTilt  = null;
     protected DcMotor rightTilt = null;
-
+    protected DcMotor pushingWall = null;
 
     // All servos
     protected Servo   solarGrabber  = null;
+    protected Servo   solarLift     = null;
+
 
     // Define servo positions
-
-    protected final static double CUBE_STOPPER_HOME = 0.35;
-    protected final static double CUBE_STOPPER_RELEASE = 1.0;
-
-    protected final static double SOLAR_GRABBER_STOP = 0.5;
-    protected final static double SOLAR_GRABBER_OPEN = 0.8;
-    protected final static double SOLAR_GRABBER_CLOSE = 0.2;
+    protected final static double CONTINUOUS_SERVO_STOP = 0.5;     // These 3 servo pos are made for a continuous servo
+    protected final static double CONTINUOUS_SERVO_CLOCKWISE = 0.8;
+    protected final static double CONTINUOUS_SERVO_ANTI_CLOCKWISE = 0.2;
 
     // Define Intake speed
     protected final static double INTAKE_POWER =0.5;
@@ -100,7 +98,8 @@ public class Basic_Bot
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
 
         // MAYBE init servo positions
-        solarGrabber.setPosition(SOLAR_GRABBER_STOP);
+        solarGrabber.setPosition(CONTINUOUS_SERVO_STOP);
+        solarLift.setPosition(CONTINUOUS_SERVO_STOP);
 
         //Change from tom
     }

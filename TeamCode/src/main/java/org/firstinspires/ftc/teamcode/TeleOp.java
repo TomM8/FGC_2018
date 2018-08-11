@@ -112,15 +112,22 @@ public class TeleOp extends OpMode
         // solar panel lift controls
         double solarLiftPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
 
-        // !imp             // add code the controls solar arm ( it is a continuous servo, so make controls to the grip)
+        // solar panel motion controls
+        if(solarLiftPower > 0){
+            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
+        } else if(solarLiftPower < 0){
+            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
+        } else {
+            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_STOP);
+        }
 
         // solar panel grab controls
         if(gamepad1.x){
-            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_CLOSE);     // close grip
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);     // close grip
         } else if (gamepad1.y) {
-            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_OPEN);     // open grip
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);     // open grip
         } else{
-            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_STOP);     // keep grip same
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_STOP);     // keep grip same
         }
         // endregion
 
@@ -143,7 +150,7 @@ public class TeleOp extends OpMode
         telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
         telemetry.addData("Motors Intake", "left (%.2f), right (%.2f)", robo.leftIntake.getPower(), robo.rightIntake.getPower());
         telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f)", robo.leftTilt.getPower(), robo.rightTilt.getPower());
-        
+
     /*
      * Code to run ONCE after the driver hits STOP
      */
