@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce29fd8-81e9-42a2-8603-9b13ce777bb7" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/ISPMexicoRobotics.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
@@ -342,6 +343,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java" />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -361,12 +366,18 @@
       <file leaf-file-name="Basic_Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1515">
               <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="e#0#5441#0" expanded="false" />
                 <element signature="imports" expanded="false" />
               </folding>
+=======
+            <state relative-caret-position="624">
+              <caret line="102" column="53" lean-forward="false" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+              <folding />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
             </state>
           </provider>
         </entry>
@@ -374,17 +385,20 @@
       <file leaf-file-name="TeleOp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="551">
               <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+=======
+            <state relative-caret-position="279">
+              <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TeleOp#0" expanded="false" />
-                <element signature="e#3405#3458#0" expanded="false" />
-                <element signature="e#3854#3899#0" expanded="false" />
-                <element signature="e#4905#4966#0" expanded="false" />
-                <element signature="e#5660#5713#0" expanded="false" />
-                <element signature="e#6225#6266#0" expanded="false" />
-                <element signature="e#6649#6678#0" expanded="false" />
+                <element signature="e#2994#3047#0" expanded="false" />
+                <element signature="e#3443#3488#0" expanded="false" />
+                <element signature="e#4063#4124#0" expanded="false" />
+                <element signature="e#4777#4830#0" expanded="false" />
                 <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
               </folding>
             </state>
@@ -3103,8 +3117,12 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
+<<<<<<< HEAD
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
         <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533985140154" />
+=======
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533985015758" />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3332,12 +3350,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TeleOp#0" expanded="false" />
-            <element signature="e#3405#3458#0" expanded="false" />
-            <element signature="e#3854#3899#0" expanded="false" />
-            <element signature="e#4905#4966#0" expanded="false" />
-            <element signature="e#5660#5713#0" expanded="false" />
-            <element signature="e#6225#6266#0" expanded="false" />
-            <element signature="e#6649#6678#0" expanded="false" />
+            <element signature="e#2994#3047#0" expanded="false" />
+            <element signature="e#3443#3488#0" expanded="false" />
+            <element signature="e#4063#4124#0" expanded="false" />
+            <element signature="e#4777#4830#0" expanded="false" />
             <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
           </folding>
         </state>
@@ -3345,28 +3361,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1515">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="e#0#5441#0" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="624">
+          <caret line="102" column="53" lean-forward="false" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+          <folding />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="551">
           <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+=======
+        <state relative-caret-position="279">
+          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+>>>>>>> f60943bca092d7430aef1ff989c2aa340b1c4d61
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TeleOp#0" expanded="false" />
-            <element signature="e#3405#3458#0" expanded="false" />
-            <element signature="e#3854#3899#0" expanded="false" />
-            <element signature="e#4905#4966#0" expanded="false" />
-            <element signature="e#5660#5713#0" expanded="false" />
-            <element signature="e#6225#6266#0" expanded="false" />
-            <element signature="e#6649#6678#0" expanded="false" />
+            <element signature="e#2994#3047#0" expanded="false" />
+            <element signature="e#3443#3488#0" expanded="false" />
+            <element signature="e#4063#4124#0" expanded="false" />
+            <element signature="e#4777#4830#0" expanded="false" />
             <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
           </folding>
         </state>
