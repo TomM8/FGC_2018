@@ -33,6 +33,22 @@
             ]
         },
         {
+            "outputFile": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/99d526ed5eae93653c7e7ab425bd4f28/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/TomMaudling/Desktop/ISPRoboticsMexico/C:\\Users\\shager\\FG_2018_Public\\first_global_sdk\\app\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {

@@ -101,5 +101,7 @@ public class Basic_Bot
 
         // MAYBE init servo positions
         solarGrabber.setPosition(SOLAR_GRABBER_STOP);
+
+        //Change from tom
     }
 }
