@@ -163,16 +163,7 @@ public class TeleOp extends OpMode
     /*
      * Code to run ONCE after the driver hits STOP
      */
-
-    //Testing for change
-        //Testing for change
-
-        //Are there any changes
-        //Changes 
-
-    //Just seeing if these changes get pushed
-        //gdfgdfgdf
-        //gdfgdfgdfg
+        
     }
     @Override
     public void stop() {
