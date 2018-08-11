@@ -43,16 +43,10 @@ public class Basic_Bot
     protected DcMotor leftIntake = null;
     protected DcMotor rightIntake = null;
     protected DcMotor leftTilt  = null;
-    protected DcMotor middleTilt = null;
     protected DcMotor rightTilt = null;
-    protected DcMotor solarLift = null;
 
 
-    protected Servo   leftMoveIntake = null;  // all servos in kit used
-    protected Servo   rightMoveIntake = null;
-    protected Servo   leftFlick     = null;
-    protected Servo   rightFlick    = null;
-    protected Servo   cubeStopper   = null;
+    // All servos
     protected Servo   solarGrabber  = null;
 
     // Define servo positions
@@ -66,9 +60,6 @@ public class Basic_Bot
 
     // Define Intake speed
     protected final static double INTAKE_POWER =0.5;
-
-    //State toggle variables
-    protected int solarGrabberToggle;
 
     /* Local OpMode members. */
     HardwareMap hwMap  = null;
@@ -89,9 +80,7 @@ public class Basic_Bot
         leftIntake = hwMap.get(DcMotor.class, "left_intake");
         rightIntake = hwMap.get(DcMotor.class, "right_intake");
         leftTilt  = hwMap.get(DcMotor.class, "left_tilt");
-        middleTilt = hwMap.get(DcMotor.class, "middle_tilt");
         rightTilt = hwMap.get(DcMotor.class, "right_tilt");
-        solarLift = hwMap.get(DcMotor.class, "solar_lift");
 
         // Define Motor Directions
         leftDrive.setDirection(DcMotor.Direction.REVERSE);  // Positive input should drive the robot forward
@@ -105,27 +94,12 @@ public class Basic_Bot
         leftIntake.setPower(0);
         rightIntake.setPower(0);
         leftTilt.setPower(0);
-        middleTilt.setPower(0);
         rightTilt.setPower(0);
-        solarLift.setPower(0);
 
         // Define and initialize ALL installed servos.
-        leftMoveIntake = hwMap.get(Servo.class, "left_intake");
-        rightMoveIntake = hwMap.get(Servo.class, "right_intake");
-        leftFlick   = hwMap.get(Servo.class, "left_flick");
-        rightFlick = hwMap.get(Servo.class, "right_flick");
-        cubeStopper = hwMap.get(Servo.class, "servo_stopper");
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
 
-        // Define toggle variables
-        solarGrabberToggle = 0;
-
         // MAYBE init servo positions
-        leftMoveIntake.setPosition(0.5);
-        rightMoveIntake.setPosition(0.44);
         solarGrabber.setPosition(SOLAR_GRABBER_STOP);
-        cubeStopper.setPosition(CUBE_STOPPER_RELEASE);
-        leftFlick.setPosition(0.0);
-        rightFlick.setPosition(1.0);
     }
 }
