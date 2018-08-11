@@ -148,11 +148,18 @@ public class TeleOp extends OpMode
         }
         // endregion
 
-<<<<<<< HEAD
         // region pushing cubes (linear motion) (gp2)
+            double cubePushPower = Range.clip(gamepad2.left_stick_y, -1.0, 1.0);
+            if (-cubePushPower > 0.3){
+                robo.pushingWall.setPower(0.3);
+            } else if (-cubePushPower < -0.3){
+                robo.pushingWall.setPower(-0.3);
+            } else {
+                robo.pushingWall.setPower(-cubePushPower);
+            }
 
         // endregion
-=======
+
         //region Rubber Servo    (gp1)
 
         if(gamepad1.dpad_right){
@@ -164,9 +171,7 @@ public class TeleOp extends OpMode
         else {
             robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_STOP);
         }
-
         //endregion
->>>>>>> 4df3c1e84a7c74872191f988add6f0f402e33623
 
         // Show the elapsed game time and wheel power.
         telemetry.addData("Status", "Run Time: " + runtime.toString());
