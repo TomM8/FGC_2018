@@ -16,6 +16,21 @@
             ]
         },
         {
+            "outputFile": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/bundles/debug/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/TomMaudling/Desktop/ISPRoboticsMexico/C:\\Users\\shager\\FG_2018_Public\\first_global_sdk\\app\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {

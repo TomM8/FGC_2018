@@ -50,18 +50,16 @@ public class TeleOp extends OpMode
     // Declare OpMode members.
     private ElapsedTime runtime = new ElapsedTime();
     private Basic_Bot robo = new Basic_Bot();
+    int toggle = 0;
 
     /*
      * Code to run ONCE when the driver hits INIT
      */
     @Override
     public void init() {
-        telemetry.addData("Status", "Initializing ...");
 
         robo.init(hardwareMap);
-
         telemetry.addData("Status", "Initialized");
-
     }
 
     /*
@@ -84,88 +82,141 @@ public class TeleOp extends OpMode
      */
     @Override
     public void loop() {
+        // Get all of the servo positions
+        double cubeStopPos = robo.cubeStopper.getPosition();
+        double leftIntakeServoPos = robo.leftMoveIntake.getPosition();
+        double rightIntakeServoPos = robo.rightMoveIntake.getPosition();
+        double leftFlickServoPos = robo.leftFlick.getPosition();        // remove
+        double rightFlickServoPos = robo.rightFlick.getPosition();      // remove
 
-    // Driving code BELOW
-    double drive = gamepad1.left_stick_y;
-    double turn = gamepad1.left_stick_x;
-    double leftRubbPower = Range.clip(drive - turn, -1.0, 1.0);    // driving powers defined and set
-    double rightRubbPower = Range.clip(drive + turn, -1.0, 1.0);
+        // region Driving code BELOW (single stick)     (gp1)
+        double drive = gamepad1.left_stick_y;
+        double turn = gamepad1.left_stick_x;
 
+        double leftRubbPower = Range.clip(drive - turn, -1.0, 1.0);    // driving powers defined and set
+        double rightRubbPower = Range.clip(drive + turn, -1.0, 1.0);
 
-    if(gamepad1.left_stick_button){
         robo.leftDrive.setPower(leftRubbPower);
         robo.rightDrive.setPower(rightRubbPower);
-    }
-    // Intake code BELOW
+        // endregion
 
-        robo.leftIntake.setPower(robo.INTAKE_POWER);
-        robo.rightIntake.setPower(robo.INTAKE_POWER);
-
-        if(((double) gamepad1.right_trigger) != 0){
-            robo.leftIntake.setPower(0);      // zucc in ;D
+        // region Intake + Moving Servo intake  (gp1)
+        if(gamepad1.right_bumper){
+            robo.leftIntake.setPower(robo.INTAKE_POWER);
+            robo.rightIntake.setPower(robo.INTAKE_POWER);           // standard mode: sucks in cubes
+        } else if (gamepad1.b) {
+            robo.leftIntake.setPower(-robo.INTAKE_POWER);           // reverse mode: reverses intake
+            robo.rightIntake.setPower(-robo.INTAKE_POWER);
+        } else {
+            robo.leftIntake.setPower(0);                            // default mode: OFF
             robo.rightIntake.setPower(0);
         }
-        if (gamepad1.b) {
-            robo.leftIntake.setPower(-robo.INTAKE_POWER);    // zucc out >I
-            robo.rightIntake.setPower(-robo.INTAKE_POWER);
+
+        // Moving intake arms code BELOW
+
+        if (gamepad1.dpad_left){
+            robo.leftMoveIntake.setPosition(leftIntakeServoPos - 0.001);
+            robo.rightMoveIntake.setPosition(rightIntakeServoPos + 0.001);
+        }
+        else if(gamepad1.dpad_right){
+            robo.leftMoveIntake.setPosition(leftIntakeServoPos + 0.001);
+            robo.rightMoveIntake.setPosition(rightIntakeServoPos - 0.001);
         }
 
-    // Moving intake arms code BELOW
-        double leftZuccServoPos = robo.leftMoveIntake.getPosition();
-        double rightZuccServoPos = robo.rightMoveIntake.getPosition();
+        // endregion
 
-        if(gamepad1.dpad_right){
-            robo.leftMoveIntake.setPosition(leftZuccServoPos + 0.01);
-            robo.rightMoveIntake.setPosition(rightZuccServoPos - 0.01);
-        } else if(gamepad1.dpad_left){
-            robo.leftMoveIntake.setPosition(leftZuccServoPos - 0.01);
-            robo.rightMoveIntake.setPosition(rightZuccServoPos + 0.01);
-        }
-    // tilt of platform that lifts cubes
-        double right_stick = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
+        // region Solar Panel/ Power line cube grabber + lift   (gp1)
 
-        if(!gamepad1.right_stick_button) {
-            robo.leftTilt.setPower(right_stick);
-            robo.rightTilt.setPower(-right_stick);
-        }
-
-    // solar panel lift controls
-        if(gamepad1.right_stick_button){
-            robo.solarLift.setPower(right_stick * 0.3);
-        }
-    // solar panel grab controls
-
-    // flick release of cubes
-        double leftFlickServoPos = robo.leftFlick.getPosition();
-        double rightFlickServoPos = robo.rightFlick.getPosition();
-
-        if(gamepad1.dpad_up){
-            robo.leftFlick.setPosition(leftFlickServoPos + 0.01);
-            robo.rightFlick.setPosition(rightFlickServoPos - 0.1);
-        } else if(gamepad1.dpad_down){
-            robo.leftFlick.setPosition(leftFlickServoPos - 0.1);
-            robo.rightFlick.setPosition(rightFlickServoPos + 0.1);
-        }
-    // cube stopper
-        robo.cubeStopper.getPosition();
-//        if(gamepad1.right_trigger != 0){
-//            robo.cubeStopper.setPosition(robo.CUBE_STOPPER_STOP);
+        // solar panel lift controls
+        double solarLiftPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
+//        if (gamepad1.right_bumper){
+//            robo.solarLift.setPower(0.2);
 //        } else {
-//            robo.cubeStopper.setPosition(robo.CUBE_STOPPER_RELEASE);
+        robo.solarLift.setPower(-solarLiftPower);
 //        }
+
+        // solar panel grab controls
+        if(gamepad1.x){
+            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_CLOSE);     // close grip
+        } else if (gamepad1.y) {
+            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_OPEN);     // open grip
+        } else{
+            robo.solarGrabber.setPosition(robo.SOLAR_GRABBER_STOP);     // keep grip same
+        }
+        // endregion
+
+        // region tilt of platform that lifts cubes     (gp2)
+        double right_stick = Range.clip(gamepad2.right_stick_y, -1.0, 1.0);
+
+        if(gamepad2.right_bumper) {
+            robo.leftTilt.setPower(0.5);
+            robo.middleTilt.setPower(0.5);
+            robo.rightTilt.setPower(0.5);
+        } else{
+            if (-right_stick != 0) {
+                robo.leftTilt.setPower(-right_stick);
+                robo.middleTilt.setPower(-right_stick);
+                robo.rightTilt.setPower(-right_stick);
+            }
+        }
+        // endregion
+
+        // region flick release of cubes    (gp2)
+
+        if(gamepad2.dpad_up){
+            robo.leftFlick.setPosition(leftFlickServoPos + 0.001);
+            robo.rightFlick.setPosition(rightFlickServoPos - 0.001);
+        } else if(gamepad2.dpad_down){
+            robo.leftFlick.setPosition(leftFlickServoPos - 0.001);
+            robo.rightFlick.setPosition(rightFlickServoPos + 0.001);
+        }
+        // endregion
+
+        // region cube stopper  (gp2)
+        if (gamepad2.a){
+            robo.cubeStopper.setPosition(robo.CUBE_STOPPER_HOME);
+        }else {
+            robo.cubeStopper.setPosition(robo.CUBE_STOPPER_RELEASE);
+        }
+        // endregion
 
         // Show the elapsed game time and wheel power.
         telemetry.addData("Status", "Run Time: " + runtime.toString());
         telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
         telemetry.addData("Motors Intake", "left (%.2f), right (%.2f)", robo.leftIntake.getPower(), robo.rightIntake.getPower());
         telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f), solar (%.2f)", robo.leftTilt.getPower(), robo.rightTilt.getPower(), robo.solarLift.getPower());
-        telemetry.addData("Servos", "left_intake (%.2f), right_intake (%.2f)", leftZuccServoPos, rightZuccServoPos);
+        telemetry.addData("Servo Intake", "left_intake (%.3f), right_intake (%.3f)", leftIntakeServoPos, rightIntakeServoPos);
+        telemetry.addData("Servo Flip", "left_flip (%.3f), right_flip (%.3f)", leftFlickServoPos, rightFlickServoPos);
+        telemetry.addData("Servo Specials,", "cube_stopper (%.3f)", cubeStopPos);
+        telemetry.addData("Shitty bois", "left: " +  robo.leftTilt.getDirection() + "middle: " + robo.middleTilt.getDirection() + "right: " + robo.rightTilt.getDirection());
     /*
      * Code to run ONCE after the driver hits STOP
      */
-        
     }
     @Override
     public void stop() {
     }
+
+    private boolean servoIsBusy(double currentPos, double targetPos) { // used to play commands ONCE servo is in place
+        boolean reachedPosition;
+
+        if(currentPos != targetPos){
+            reachedPosition = false;
+        } else{
+            reachedPosition = true;
+        }
+        return reachedPosition;
+    } // used to play commands ONCE servo is in place
+
+
+
+    /*
+     * Code below makes the robot move in a right-angled triangle
+     */
+    private void triangularMotion (double speed, double backingDistanceCm, double turnAngle) {} // Not done
+
+    /*
+     * Code below uses the triangular motion method and loops it in a way to create a horizontal motion
+     */
+    private void strafe (double speed, double backingDistanceCm, double turnAngle){} // not done
 }

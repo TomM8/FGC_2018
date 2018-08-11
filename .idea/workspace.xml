@@ -2,8 +2,346 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce29fd8-81e9-42a2-8603-9b13ce777bb7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Blocks_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/FtcCommon_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Hardware_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Inspection_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/RobotCore_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/WirelessP2p_release__aar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ISPRoboticsMexico.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/generated/mockable-android-23.v3.jar" afterPath="$PROJECT_DIR$/FtcRobotController/build/generated/mockable-android-23.v3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/generated/mockable-android-23.v3.jar" afterPath="$PROJECT_DIR$/TeamCode/build/generated/mockable-android-23.v3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_black_border.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_feedback_shape_orange.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/drawable_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_about.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_blocks.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_config_wifi_direct.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_configure_from_template.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_configuration.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_fw_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_generic_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_inspection.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_load.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_program_and_manage.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_programming_mode.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_swap_usb_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_activity_view_logs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_input_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_inputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_output_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_analog_outputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_banner_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_button_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_color_list_preference_line_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_device_lynx.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_digital_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_file_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_gray_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_header.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_i2c_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_i2cs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_info_button.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_item_list_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_legacy.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_loading_indicator_overlay.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_module_configure_address_spin_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_lynx_usb_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_matrices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_matrix_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_motor_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_port_attached_row.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_pwm_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_pwms.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_servo_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_simple_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/layout_template_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_ftc_robot_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/menu_menu_server.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_chimeconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_chimedisconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_color_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_cube_mesh_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_errormessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_nxtstartupsound.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_simple_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_texture_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_texture_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/raw_warningmessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-v11_values-v11.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-v14_values-v14.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/values_values.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_advanced_rc_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_app_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_device_filter.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_k9legacybot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_k9usbbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_maxmodules.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_pushbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_pushbotsens.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_rev_scoot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/androidTest/debug/xml_squarebot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-hdpi-v4_button_shape.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-hdpi-v4_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_menu.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_launcher.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_black_border.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_black_border.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_button_shape.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_button_shape.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_feedback_shape_orange.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_feedback_shape_orange.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_icon_menu.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_icon_menu.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_icon_robotcontroller.png.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/drawable_icon_robotcontroller.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_about.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_about.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_blocks.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_blocks.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_config_wifi_direct.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_config_wifi_direct.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_configure_from_template.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_configure_from_template.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_configuration.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_configuration.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_controller.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_lynx_address_update.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_lynx_address_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_lynx_fw_update.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_lynx_fw_update.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_wifi_channel_selector.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_wifi_remembered_groups.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_generic_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_generic_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_inspection.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_inspection.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_load.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_load.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_program_and_manage.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_program_and_manage.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_programming_mode.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_programming_mode.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_swap_usb_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_swap_usb_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_view_logs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_activity_view_logs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_input_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_input_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_inputs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_inputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_output_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_output_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_outputs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_analog_outputs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_banner_parent.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_banner_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_button_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_button_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_color_list_preference_line_item.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_color_list_preference_line_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_device_interface_module.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_device_interface_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_device_lynx.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_device_lynx.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_digital_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_feedback.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_feedback.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_file_info.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_file_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_gray_line.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_gray_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_header.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_header.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_i2c_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_i2c_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_i2cs.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_i2cs.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_info_button.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_info_button.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_item_list_parent.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_item_list_parent.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_legacy.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_legacy.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_loading_indicator_overlay.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_loading_indicator_overlay.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module_configure_address.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module_configure_address.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module_configure_address_spin_item.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_module_configure_address_spin_item.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_usb_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_lynx_usb_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_matrices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_matrices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_matrix_devices.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_matrix_devices.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_motor_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_port_attached_row.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_port_attached_row.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_pwm_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_pwm_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_pwms.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_pwms.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_red_line.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_red_line.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo_controller_banner.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo_controller_banner.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo_list.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_servo_list.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_simple_device.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_simple_device.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_template_info.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/layout_template_info.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_ftc_robot_controller.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_ftc_robot_controller.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_main_menu.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_main_menu.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_menu_server.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/menu_menu_server.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_chimeconnect.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_chimeconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_chimedisconnect.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_chimedisconnect.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_color_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_color_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_cube_mesh_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_cube_mesh_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_cube_mesh_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_cube_mesh_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_errormessage.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_errormessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_nxtstartupsound.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_nxtstartupsound.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_simple_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_simple_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_texture_fragment_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_texture_fragment_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_texture_vertex_shader.glsl.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_texture_vertex_shader.glsl.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_warningmessage.wav.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_warningmessage.wav.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_advanced_rc_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_advanced_rc_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_app_settings.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_app_settings.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_device_filter.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_device_filter.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_k9legacybot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_k9legacybot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_k9usbbot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_k9usbbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_maxmodules.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_maxmodules.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_pushbot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_pushbot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_pushbotsens.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_pushbotsens.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_rev_scoot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_rev_scoot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_squarebot.xml.flat" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_squarebot.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw720dp-land-v13.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw720dp-land-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values-w820dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/FtcRobotController/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw720dp-land-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-sw720dp-land-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values-w820dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-sw720dp-land-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-sw720dp-land-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +357,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Basic_Bot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="605">
+              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -33,9 +371,19 @@
       <file leaf-file-name="TeleOp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="165" column="8" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="479">
+              <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#TeleOp#0" expanded="false" />
+                <element signature="e#3405#3458#0" expanded="false" />
+                <element signature="e#3854#3899#0" expanded="false" />
+                <element signature="e#4905#4966#0" expanded="false" />
+                <element signature="e#5660#5713#0" expanded="false" />
+                <element signature="e#6225#6266#0" expanded="false" />
+                <element signature="e#6649#6678#0" expanded="false" />
+                <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,14 +409,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="ISPRoboticsMexico" />
+              <option name="name" value="ISPMexicoRobotics" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="ISPRoboticsMexico" />
+                <option name="name" value="ISPMexicoRobotics" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -94,7 +442,7 @@
                 <option name="name" value="splitsDiscoveryTaskDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'ISPRoboticsMexico'." />
+                <option name="description" value="Displays the sub-projects of root project 'ISPMexicoRobotics'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -158,7 +506,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'ISPRoboticsMexico'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'ISPMexicoRobotics'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -176,7 +524,7 @@
                 <option name="name" value="bundleAppClassesDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'ISPRoboticsMexico' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'ISPMexicoRobotics' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -207,7 +555,7 @@
                 <option name="name" value="transformNativeLibsWithIntermediateJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'ISPRoboticsMexico'." />
+                <option name="description" value="Displays all dependencies declared in root project 'ISPMexicoRobotics'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -284,7 +632,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'ISPRoboticsMexico'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'ISPMexicoRobotics'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -430,7 +778,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'ISPRoboticsMexico'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'ISPMexicoRobotics'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -716,12 +1064,12 @@
                 <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'ISPRoboticsMexico'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'ISPMexicoRobotics'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'ISPRoboticsMexico'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'ISPMexicoRobotics'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -857,7 +1205,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'ISPRoboticsMexico'." />
+                <option name="description" value="Displays the properties of root project 'ISPMexicoRobotics'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -2453,7 +2801,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="ISPRoboticsMexico" />
+              <option name="name" value="ISPMexicoRobotics" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1/src/announce" />
@@ -2629,8 +2977,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2663,8 +3013,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2752,8 +3100,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533981036113" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533984342897" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2851,10 +3198,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533981036113" />
-      </method>
+      <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android App.TeamCode" />
@@ -2895,36 +3239,36 @@
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2937,7 +3281,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="1200">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
@@ -2945,9 +3289,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
+        <state relative-caret-position="2010">
           <caret line="165" column="8" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TeleOp#0" expanded="false" />
+            <element signature="e#3405#3458#0" expanded="false" />
+            <element signature="e#3854#3899#0" expanded="false" />
+            <element signature="e#4905#4966#0" expanded="false" />
+            <element signature="e#5660#5713#0" expanded="false" />
+            <element signature="e#6225#6266#0" expanded="false" />
+            <element signature="e#6649#6678#0" expanded="false" />
+            <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Basic_Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TeleOp#0" expanded="false" />
+            <element signature="e#3405#3458#0" expanded="false" />
+            <element signature="e#3854#3899#0" expanded="false" />
+            <element signature="e#4905#4966#0" expanded="false" />
+            <element signature="e#5660#5713#0" expanded="false" />
+            <element signature="e#6225#6266#0" expanded="false" />
+            <element signature="e#6649#6678#0" expanded="false" />
+            <element signature="method#servoIsBusy#0;class#TeleOp#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
