@@ -105,6 +105,8 @@ public class TeleOp extends OpMode
             robo.leftIntake.setPower(0);                            // default mode: OFF
             robo.rightIntake.setPower(0);
         }
+
+
         // endregion
 
         // region Solar Panel/ Power line cube grabber + lift   (gp1)
@@ -121,6 +123,7 @@ public class TeleOp extends OpMode
             robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_STOP);
         }
 
+
         // solar panel grab controls
         if(gamepad1.x){
             robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);     // close grip
@@ -131,25 +134,30 @@ public class TeleOp extends OpMode
         }
         // endregion
 
-        // region tilt of platform that lifts cubes     (gp2)
+        // region lift platform which lifts cubes     (gp2)
         double right_stick = Range.clip(gamepad2.right_stick_y, -1.0, 1.0);
 
         if(gamepad2.right_bumper) {
-            robo.leftTilt.setPower(0.5);
-            robo.rightTilt.setPower(0.5);
+            robo.leftLift.setPower(0.5);
+            robo.rightLift.setPower(0.5);
         } else{
             if (-right_stick != 0) {
-                robo.leftTilt.setPower(-right_stick);
-                robo.rightTilt.setPower(-right_stick);
+                robo.leftLift.setPower(-right_stick);
+                robo.rightLift.setPower(-right_stick);
             }
         }
+        // endregion
+
+        // region pushing cubes (linear motion) (gp2)
+
         // endregion
 
         // Show the elapsed game time and wheel power.
         telemetry.addData("Status", "Run Time: " + runtime.toString());
         telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
         telemetry.addData("Motors Intake", "left (%.2f), right (%.2f)", robo.leftIntake.getPower(), robo.rightIntake.getPower());
-        telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f)", robo.leftTilt.getPower(), robo.rightTilt.getPower());
+        telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f)", robo.leftLift.getPower(), robo.rightLift.getPower());
+
 
     /*
      * Code to run ONCE after the driver hits STOP

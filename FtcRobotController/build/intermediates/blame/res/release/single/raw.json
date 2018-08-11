@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_vertex_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/cube_mesh_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/errormessage.wav",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/raw/errormessage.wav"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/simple_vertex_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/simple_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/nxtstartupsound.wav",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/chimedisconnect.wav",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/raw/chimedisconnect.wav"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/cube_mesh_fragment_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/color_fragment_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/color_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/texture_fragment_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/warningmessage.wav",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/texture_vertex_shader.glsl",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/raw/chimeconnect.wav",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/raw/chimeconnect.wav"
+    }
+]

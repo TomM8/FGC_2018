@@ -42,8 +42,8 @@ public class Basic_Bot
     protected DcMotor rightDrive = null;
     protected DcMotor leftIntake = null;
     protected DcMotor rightIntake = null;
-    protected DcMotor leftTilt  = null;
-    protected DcMotor rightTilt = null;
+    protected DcMotor leftLift = null;
+    protected DcMotor rightLift = null;
     protected DcMotor pushingWall = null;
 
     // All servos
@@ -77,8 +77,8 @@ public class Basic_Bot
         rightDrive = hwMap.get(DcMotor.class, "right_drive");
         leftIntake = hwMap.get(DcMotor.class, "left_intake");
         rightIntake = hwMap.get(DcMotor.class, "right_intake");
-        leftTilt  = hwMap.get(DcMotor.class, "left_tilt");
-        rightTilt = hwMap.get(DcMotor.class, "right_tilt");
+        leftLift = hwMap.get(DcMotor.class, "left_tilt");
+        rightLift = hwMap.get(DcMotor.class, "right_tilt");
 
         // Define Motor Directions
         leftDrive.setDirection(DcMotor.Direction.REVERSE);  // Positive input should drive the robot forward
@@ -91,8 +91,8 @@ public class Basic_Bot
         rightDrive.setPower(0);
         leftIntake.setPower(0);
         rightIntake.setPower(0);
-        leftTilt.setPower(0);
-        rightTilt.setPower(0);
+        leftLift.setPower(0);
+        rightLift.setPower(0);
 
         // Define and initialize ALL installed servos.
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/drawable-xhdpi-v4/icon_menu.png",
+        "source": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/src/main/res/drawable-xhdpi/icon_menu.png"
+    },
+    {
+        "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/res/merged/release/drawable-xhdpi-v4/icon_robotcontroller.png",
+        "source": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/src/main/res/drawable-xhdpi/icon_robotcontroller.png"
+    }
+]

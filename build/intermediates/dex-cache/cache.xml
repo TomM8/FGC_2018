@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="467923dd44ee605486c2e7480324893e361437d5">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/9a31002d12dacc9a07975e0b594489dc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="391a48d747c0a8936c72563d7be23091a680fe77">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/libs/Vuforia.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="91b46366eb9f8203073ee2935087c097c888c0ed">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/WirelessP2p-release.aar/d26071b81bada85b3e7232341b060ece/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/Hardware-release.aar/5e1176eded61e8f5c1326f6078df7ea3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="09122bf2052d7f3e5db72a0afe0b772c8042228a">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/FtcRobotController/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="319ac6fc94894c9938765a1188db1e86ecc41022">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/libs/gson-extras-0.2.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b30c2655badcc7ce97f84e49f777b7dd154bad57">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ec2c4207a366af7d690db8d7f1d0f5200c7ff557">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/libs/gson-2.8.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e118dd0900e4a18fb928ebb8df2d9fbda78f2b5d">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a214d3b1b12e72f4fb0d5d5d8d0ec43c96de2b5">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/a4cf3bfd005aae13d8c2768b10edd127/jars/libs/javac.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c576121aac49e547b39aedfb1daa29782db4166c">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/16e3935d2c617608d45d2e7cb7803354/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fab066e4ab1e2937b7995ae74faad9904450552c">
+        <dex dex="/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+
+</items>
