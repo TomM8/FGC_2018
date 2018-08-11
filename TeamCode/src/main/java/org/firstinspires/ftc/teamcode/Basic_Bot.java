@@ -49,6 +49,7 @@ public class Basic_Bot
     // All servos
     protected Servo   solarGrabber  = null;
     protected Servo   solarLift     = null;
+    protected Servo   rubberCoiler  = null;
 
 
     // Define servo positions
@@ -96,6 +97,7 @@ public class Basic_Bot
 
         // Define and initialize ALL installed servos.
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
+        rubberCoiler = hwMap.get(Servo.class, "rubber_coiler");
 
         // MAYBE init servo positions
         solarGrabber.setPosition(CONTINUOUS_SERVO_STOP);
