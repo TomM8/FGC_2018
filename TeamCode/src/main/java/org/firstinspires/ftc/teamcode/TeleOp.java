@@ -143,8 +143,7 @@ public class TeleOp extends OpMode
         telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
         telemetry.addData("Motors Intake", "left (%.2f), right (%.2f)", robo.leftIntake.getPower(), robo.rightIntake.getPower());
         telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f)", robo.leftTilt.getPower(), robo.rightTilt.getPower());
-
-
+        
     /*
      * Code to run ONCE after the driver hits STOP
      */
