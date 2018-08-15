@@ -12,12 +12,12 @@
         "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/706269299d3a86027a151fa15fc33c0e/res/drawable-mdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/menu_ftc_robot_controller.xml.flat",
-        "source": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
-    },
-    {
         "merged": "/Users/TomMaudling/Desktop/ISPRoboticsMexico/TeamCode/build/intermediates/res/merged/debug/layout_motor_controller_banner.xml.flat",
         "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/706269299d3a86027a151fa15fc33c0e/res/layout/motor_controller_banner.xml"
+    },
+    {
+        "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/menu_ftc_robot_controller.xml.flat",
+        "source": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/FtcRobotController/build/intermediates/bundles/debug/res/menu/ftc_robot_controller.xml"
     },
     {
         "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/layout_item_list_parent.xml.flat",
@@ -108,12 +108,12 @@
         "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/706269299d3a86027a151fa15fc33c0e/res/layout/i2c_device.xml"
     },
     {
-        "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/layout_servo_controller_banner.xml.flat",
-        "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/05a5c59b1134c49a5632b3c51eab6b46/res/layout/servo_controller_banner.xml"
-    },
-    {
         "merged": "/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/res/merged/debug/layout_motor.xml.flat",
         "source": "/Users/petr-konstantin/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/f8404e8566badf01cae19cb1c96a1b48/res/layout/motor.xml"
+    },
+    {
+        "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/layout_servo_controller_banner.xml.flat",
+        "source": "/Users/TomMaudling/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/05a5c59b1134c49a5632b3c51eab6b46/res/layout/servo_controller_banner.xml"
     },
     {
         "merged": "/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/res/merged/debug/layout_servo.xml.flat",

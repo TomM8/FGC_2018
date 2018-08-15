@@ -1,4 +1,4 @@
-#Sat Aug 11 14:03:14 CEST 2018
-base.0=/Users/petr-konstantin/Documents/GitHub/ISPMexicoRobotics/TeamCode/build/intermediates/transforms/dexMerger/debug/0
+#Tue Aug 14 18:45:49 CDT 2018
+base.0=/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

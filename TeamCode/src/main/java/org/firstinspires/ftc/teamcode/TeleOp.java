@@ -109,25 +109,24 @@ public class TeleOp extends OpMode
 
         // endregion
 
-        // region Solar Panel/ Power line cube grabber + lift   (gp1)
+        // region Solar Panel/ Power line cube grabber + lift   (gp2)
 
         // solar panel lift controls
-        double solarLiftPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
+        //double solarLiftPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
 
         // solar panel motion controls
-        if(solarLiftPower > 0){
+        if(gamepad2.dpad_up){
             robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
-        } else if(solarLiftPower < 0){
+        } else if(gamepad2.dpad_down){
             robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
         } else {
             robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_STOP);
         }
 
-
         // solar panel grab controls
-        if(gamepad1.x){
+        if(gamepad2.x){
             robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);     // close grip
-        } else if (gamepad1.y) {
+        } else if (gamepad2.y) {
             robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);     // open grip
         } else{
             robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_STOP);     // keep grip same
@@ -140,23 +139,29 @@ public class TeleOp extends OpMode
         if(gamepad2.right_bumper) {
             robo.leftLift.setPower(0.5);
             robo.rightLift.setPower(0.5);
-        } else{
-            if (-right_stick != 0) {
-                robo.leftLift.setPower(-right_stick);
-                robo.rightLift.setPower(-right_stick);
-            }
+        } else if (-right_stick != 0) {
+            robo.leftLift.setPower((0.5)-right_stick);
+            robo.rightLift.setPower((0.5)-right_stick);
+        }
+        else if (gamepad2.left_bumper) {
+            robo.leftLift.setPower(-0.5);
+            robo.rightLift.setPower(-0.5);
+        }
+        else {
+            robo.leftLift.setPower(robo.INTAKE_OFF);
+            robo.rightLift.setPower(robo.INTAKE_OFF);
         }
         // endregion
 
         // region pushing cubes (linear motion) (gp2)
-            double cubePushPower = Range.clip(gamepad2.left_stick_y, -1.0, 1.0);
-            if (-cubePushPower > 0.3){
-                robo.pushingWall.setPower(0.3);
-            } else if (-cubePushPower < -0.3){
-                robo.pushingWall.setPower(-0.3);
-            } else {
-                robo.pushingWall.setPower(-cubePushPower);
-            }
+        double cubePushPower = Range.clip(gamepad2.left_stick_y, -1.0, 1.0);
+        if (-cubePushPower > 0.3){
+            robo.pushingWall.setPower(0.3);
+        } else if (-cubePushPower < -0.3){
+            robo.pushingWall.setPower(-0.3);
+        } else {
+            robo.pushingWall.setPower(-cubePushPower);
+        }
 
         // endregion
 

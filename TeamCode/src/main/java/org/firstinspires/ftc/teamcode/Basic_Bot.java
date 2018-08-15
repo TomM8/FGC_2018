@@ -58,6 +58,7 @@ public class Basic_Bot
 
     // Define Intake speed
     protected final static double INTAKE_POWER =0.5;
+    protected final static double INTAKE_OFF = 0.0;
 
     /* Local OpMode members. */
     HardwareMap hwMap  = null;
