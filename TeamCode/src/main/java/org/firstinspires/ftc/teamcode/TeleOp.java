@@ -213,8 +213,9 @@ public class TeleOp extends OpMode
             beltLeftLiftPower = gamepad2.right_trigger;
             beltRightliftPower = -gamepad2.right_trigger;
 
-            //robo.leftBelt.setPower(-robo.INTAKE_FULL_POWER);
-            //robo.rightBelt.setPower(robo.INTAKE_FULL_POWER);
+            robo.rightBelt.setPower(beltRightliftPower);
+            robo.leftBelt.setPower(beltLeftLiftPower);
+
         }
         else if(gamepad2.a){
             robo.leftBelt.setPower(robo.INTAKE_FULL_POWER);
@@ -224,9 +225,6 @@ public class TeleOp extends OpMode
             robo.leftBelt.setPower(robo.INTAKE_OFF);
             robo.rightBelt.setPower(robo.INTAKE_OFF);
         }
-
-        robo.rightBelt.setPower(beltRightliftPower);
-        robo.leftBelt.setPower(beltLeftLiftPower);
 
         // endregion
 
