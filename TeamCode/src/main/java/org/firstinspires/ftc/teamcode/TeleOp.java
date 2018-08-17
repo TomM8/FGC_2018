@@ -50,6 +50,9 @@ public class TeleOp extends OpMode
     // Declare OpMode members.
     private ElapsedTime runtime = new ElapsedTime();
     private Basic_Bot robo = new Basic_Bot();
+    private double beltLeftLiftPower;
+    private double beltRightliftPower;
+
     int toggle = 0;
 
     /*
@@ -84,105 +87,184 @@ public class TeleOp extends OpMode
     public void loop() {
 
         // region Driving code BELOW (single stick)     (gp1)
+
         double drive = gamepad1.left_stick_y;
         double turn = gamepad1.left_stick_x;
 
-        double leftRubbPower = Range.clip(drive - turn, -1.0, 1.0);    // driving powers defined and set
-        double rightRubbPower = Range.clip(drive + turn, -1.0, 1.0);
+        double leftRubbPower = Range.clip(drive - turn, -0.6, 0.6);    // driving powers defined and set
+        double rightRubbPower = Range.clip(drive + turn, -0.6, 0.6);
 
-        robo.leftDrive.setPower(leftRubbPower);
-        robo.rightDrive.setPower(rightRubbPower);
-        // endregion
+        double leftRubbSlowPower = Range.clip(drive - turn, -0.3, 0.3);    // driving powers defined and set (slower)
+        double rightRubbSlowPower = Range.clip(drive + turn, -0.3, 0.3);
 
-        // region Intake + Moving Servo intake  (gp1)
-        if(gamepad1.right_bumper){
-            robo.leftIntake.setPower(robo.INTAKE_POWER);
-            robo.rightIntake.setPower(robo.INTAKE_POWER);           // standard mode: sucks in cubes
-        } else if (gamepad1.b) {
-            robo.leftIntake.setPower(-robo.INTAKE_POWER);           // reverse mode: reverses intake
-            robo.rightIntake.setPower(-robo.INTAKE_POWER);
-        } else {
-            robo.leftIntake.setPower(0);                            // default mode: OFF
-            robo.rightIntake.setPower(0);
+        //robo.leftDrive.setPower(leftRubbPower);
+        //robo.rightDrive.setPower(rightRubbPower);
+
+        if(!gamepad1.left_stick_button){
+            robo.leftDrive.setPower(leftRubbPower);
+            robo.rightDrive.setPower(rightRubbPower);
+        }
+        else if(gamepad1.left_stick_button){
+            robo.leftDrive.setPower(leftRubbSlowPower);
+            robo.rightDrive.setPower(rightRubbSlowPower);
+        }
+        else {
+            robo.leftDrive.setPower(0);
+            robo.rightDrive.setPower(0);
         }
 
-
         // endregion
 
-        // region Solar Panel/ Power line cube grabber + lift   (gp2)
+        // region Lifting motors              (gp2)
 
-        // solar panel lift controls
-        //double solarLiftPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
+        //double liftMotorsPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
 
-        // solar panel motion controls
         if(gamepad2.dpad_up){
-            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
-        } else if(gamepad2.dpad_down){
-            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
-        } else {
-            robo.solarLift.setPosition(robo.CONTINUOUS_SERVO_STOP);
+            robo.rightLift.setPower(-1.0);
+            robo.leftLift.setPower(-1.0);
         }
-
-        // solar panel grab controls
-        if(gamepad2.x){
-            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);     // close grip
-        } else if (gamepad2.y) {
-            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);     // open grip
-        } else{
-            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_STOP);     // keep grip same
-        }
-        // endregion
-
-        // region lift platform which lifts cubes     (gp2)
-        double right_stick = Range.clip(gamepad2.right_stick_y, -1.0, 1.0);
-
-        if(gamepad2.right_bumper) {
-            robo.leftLift.setPower(0.5);
-            robo.rightLift.setPower(0.5);
-        } else if (-right_stick != 0) {
-            robo.leftLift.setPower((0.5)-right_stick);
-            robo.rightLift.setPower((0.5)-right_stick);
-        }
-        else if (gamepad2.left_bumper) {
-            robo.leftLift.setPower(-0.5);
-            robo.rightLift.setPower(-0.5);
+        else if(gamepad2.dpad_down){
+            robo.rightLift.setPower(0.7);
+            robo.leftLift.setPower(0.7);
         }
         else {
-            robo.leftLift.setPower(robo.INTAKE_OFF);
-            robo.rightLift.setPower(robo.INTAKE_OFF);
-        }
-        // endregion
-
-        // region pushing cubes (linear motion) (gp2)
-        double cubePushPower = Range.clip(gamepad2.left_stick_y, -1.0, 1.0);
-        if (-cubePushPower > 0.3){
-            robo.pushingWall.setPower(0.3);
-        } else if (-cubePushPower < -0.3){
-            robo.pushingWall.setPower(-0.3);
-        } else {
-            robo.pushingWall.setPower(-cubePushPower);
+            robo.rightLift.setPower(0);
+            robo.leftLift.setPower(0);
         }
 
-        // endregion
-
-        //region Rubber Servo    (gp1)
-
-        if(gamepad1.dpad_right){
-            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
-        }
-        else if(gamepad1.dpad_left){
-            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
-        }
-        else {
-            robo.rubberCoiler.setPosition(robo.CONTINUOUS_SERVO_STOP);
-        }
         //endregion
 
-        // Show the elapsed game time and wheel power.
-        telemetry.addData("Status", "Run Time: " + runtime.toString());
-        telemetry.addData("Motors Driving", "left (%.2f), right (%.2f)", leftRubbPower, rightRubbPower);
-        telemetry.addData("Motors Intake", "left (%.2f), right (%.2f)", robo.leftIntake.getPower(), robo.rightIntake.getPower());
-        telemetry.addData("Motor Lifts", "left (%.2f), right (%.2f)", robo.leftLift.getPower(), robo.rightLift.getPower());
+        //region Solar servos             (gp1)
+
+        //Servo arm
+
+        double servoArmPosition = robo.solarLift.getPosition();
+
+        if(gamepad1.b){
+            robo.solarLift.setPosition(0.55);
+        }
+        else if(gamepad1.y){
+            robo.solarLift.setPosition(0.0);
+        }
+        else if(gamepad1.x){
+            robo.solarLift.setPosition(0.45);
+        }
+        else {
+            robo.solarLift.setPosition(0.27);
+        }
+
+        /*if(servoArmPosition != 1.0){
+            robo.solarLift.setPosition(servoArmPosition + 1);
+            robo.correctPositon = true;
+        }
+        else {
+            robo.solarLift.setPosition(servoArmPosition - 1);
+            robo.correctPositon = false;
+        }
+
+        double servoArmPosition2 = robo.solarLift.getPosition();
+
+        if(gamepad1.b && robo.correctPositon == true){
+            robo.solarLift.setPosition(servoArmPosition2 + 1);
+        }*/
+
+        //Servo grabbers
+
+        if(gamepad1.right_bumper){
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
+        }
+        else if(gamepad1.left_bumper){
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
+        }
+        else {
+            robo.solarGrabber.setPosition(robo.CONTINUOUS_SERVO_STOP);
+        }
+
+        //endregion
+
+        //region Intake servos       (gp2)
+
+        if(gamepad2.left_bumper){
+            robo.rightIntake.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
+            robo.leftIntake.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
+        }
+        else if(gamepad2.left_trigger > 0 && gamepad2.right_trigger == 0){
+            robo.rightIntake.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
+            robo.leftIntake.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
+        }
+        else {
+            robo.rightIntake.setPosition(robo.CONTINUOUS_SERVO_STOP);
+            robo.leftIntake.setPosition(robo.CONTINUOUS_SERVO_STOP);
+        }
+
+        //endregion
+
+        //region Intake belts       (gp2)
+
+        //double beltLeftLiftPower = 0;
+        //double beltRightliftPower = 0;
+
+
+        if(gamepad2.right_bumper){
+            robo.leftBelt.setPower(-robo.INTAKE_FULL_POWER);
+            robo.rightBelt.setPower(robo.INTAKE_FULL_POWER);
+        }
+        else if(gamepad2.right_trigger < 0){
+            beltLeftLiftPower = gamepad2.right_trigger;
+            beltRightliftPower = -gamepad2.right_trigger;
+
+            //robo.leftBelt.setPower(-robo.INTAKE_FULL_POWER);
+            //robo.rightBelt.setPower(robo.INTAKE_FULL_POWER);
+        }
+        else if(gamepad2.a){
+            robo.leftBelt.setPower(robo.INTAKE_FULL_POWER);
+            robo.rightBelt.setPower(-robo.INTAKE_FULL_POWER);
+        }
+        else {
+            robo.leftBelt.setPower(robo.INTAKE_OFF);
+            robo.rightBelt.setPower(robo.INTAKE_OFF);
+        }
+
+        robo.rightBelt.setPower(beltRightliftPower);
+        robo.leftBelt.setPower(beltLeftLiftPower);
+
+        // endregion
+
+        //region Pusher wheels           (gp2)
+
+        if(gamepad2.y){
+            robo.rightPushWheel.setPosition(0.0);
+            robo.leftPushWheel.setPosition(1.0);
+        }
+        else if(gamepad2.x){
+            robo.rightPushWheel.setPosition(1.0);
+            robo.leftPushWheel.setPosition(0.0);
+        }
+        else {
+            robo.rightPushWheel.setPosition(robo.CONTINUOUS_SERVO_STOP);
+            robo.leftPushWheel.setPosition(robo.CONTINUOUS_SERVO_STOP);
+        }
+
+        //endregion
+
+        //region Wind turbine      (gp1)
+
+        if(gamepad1.a){
+            robo.windTurbine.setPower(1.0);
+        }
+        else {
+            robo.windTurbine.setPower(0.0);
+        }
+
+        //endregion
+
+        //region Telemetry
+
+        telemetry.addData("solar_servo position: ", servoArmPosition);
+
+
+        //endregion
+
 
 
     /*

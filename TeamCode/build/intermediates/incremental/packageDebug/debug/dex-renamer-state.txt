@@ -1,4 +1,4 @@
-#Tue Aug 14 18:45:49 CDT 2018
+#Thu Aug 16 16:38:54 CDT 2018
 base.0=/Users/TomMaudling/Desktop/MexicoRoboticsMain/TeamCode/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

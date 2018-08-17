@@ -40,15 +40,19 @@ public class Basic_Bot
     /* Public OpMode members. */
     protected DcMotor leftDrive = null;  // 7 DC Motors in use
     protected DcMotor rightDrive = null;
-    protected DcMotor leftIntake = null;
-    protected DcMotor rightIntake = null;
     protected DcMotor leftLift = null;
     protected DcMotor rightLift = null;
-    protected DcMotor pushingWall = null;
+    protected DcMotor rightBelt = null;
+    protected DcMotor leftBelt = null;
+    protected DcMotor windTurbine = null;
 
     protected Servo   solarGrabber  = null; //  3 Servos in use
     protected Servo   solarLift     = null;
     protected Servo   rubberCoiler  = null;
+    protected Servo   leftIntake    = null;
+    protected Servo   rightIntake   = null;
+    protected Servo  rightPushWheel = null;
+    protected Servo  leftPushWheel  = null;
 
 
     // Define servo positions
@@ -58,7 +62,12 @@ public class Basic_Bot
 
     // Define Intake speed
     protected final static double INTAKE_POWER =0.5;
+    protected final static double INTAKE_FULL_POWER = 0.9;
     protected final static double INTAKE_OFF = 0.0;
+
+    //Other
+    protected boolean correctPositon;
+    protected double position;
 
     /* Local OpMode members. */
     HardwareMap hwMap  = null;
@@ -76,39 +85,46 @@ public class Basic_Bot
         // Define and Initialize Motors
         leftDrive = hwMap.get(DcMotor.class, "left_drive");
         rightDrive = hwMap.get(DcMotor.class, "right_drive");
-        leftIntake = hwMap.get(DcMotor.class, "left_intake");
-        rightIntake = hwMap.get(DcMotor.class, "right_intake");
-        leftLift = hwMap.get(DcMotor.class, "left_tilt");
-        rightLift = hwMap.get(DcMotor.class, "right_tilt");
-        pushingWall = hwMap.get(DcMotor.class, "pushing_wall");
+        leftLift = hwMap.get(DcMotor.class, "left_lift");
+        rightLift = hwMap.get(DcMotor.class, "right_lift");
+        rightBelt = hwMap.get(DcMotor.class, "right_belt");
+        leftBelt = hwMap.get(DcMotor.class, "left_belt");
+        windTurbine = hwMap.get(DcMotor.class, "wind_turbine");
+        //pushingWall = hwMap.get(DcMotor.class, "pushing_wall");
 
         // Define Motor Directions
         leftDrive.setDirection(DcMotor.Direction.REVERSE);  // Positive input should drive the robot forward
         rightDrive.setDirection(DcMotor.Direction.FORWARD);
-        leftIntake.setDirection(DcMotor.Direction.FORWARD);   // Positive input should suck in the cubes :D
-        rightIntake.setDirection(DcMotor.Direction.REVERSE);
+        //leftIntake.setDirection(DcMotor.Direction.FORWARD);   // Positive input should suck in the cubes :D
+        //rightIntake.setDirection(DcMotor.Direction.REVERSE);
 
         // Set all motors to zero power
         leftDrive.setPower(0);
         rightDrive.setPower(0);
-        leftIntake.setPower(0);
-        rightIntake.setPower(0);
         leftLift.setPower(0);
         rightLift.setPower(0);
-        pushingWall.setPower(0);
+        rightBelt.setPower(0);
+        leftBelt.setPower(0);
+        windTurbine.setPower(0);
+        //pushingWall.setPower(0);
 
         // Define and initialize ALL installed servos.
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
-        rubberCoiler = hwMap.get(Servo.class, "rubber_coiler");
+        leftIntake = hwMap.get(Servo.class, "left_intake");
+        rightIntake = hwMap.get(Servo.class, "right_intake");
         solarLift    = hwMap.get(Servo.class, "solar_lift");
+        rightPushWheel  = hwMap.get(Servo.class, "right_push");
+        leftPushWheel  = hwMap.get(Servo.class, "left_push");
 
         // MAYBE init servo positions
         solarGrabber.setPosition(CONTINUOUS_SERVO_STOP);
-        solarLift.setPosition(CONTINUOUS_SERVO_STOP);
-        rubberCoiler.setPosition(CONTINUOUS_SERVO_STOP);
+        solarLift.setPosition(0);
+        rightIntake.setPosition(CONTINUOUS_SERVO_STOP);
+        leftIntake.setPosition(CONTINUOUS_SERVO_STOP);
+        leftPushWheel.setPosition(CONTINUOUS_SERVO_STOP);
+        rightPushWheel.setPosition(CONTINUOUS_SERVO_STOP);
 
-        //Change from tom
-        //Just some test changes :)
-        //More test changes :):)
+        //rubberCoiler.setPosition(CONTINUOUS_SERVO_STOP);
+
     }
 }
