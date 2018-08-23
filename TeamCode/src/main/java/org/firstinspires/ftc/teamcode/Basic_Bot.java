@@ -49,8 +49,8 @@ public class Basic_Bot
     protected Servo   solarGrabber  = null; //  3 Servos in use
     protected Servo   solarLift     = null;
     protected Servo   rubberCoiler  = null;
-    protected Servo   leftIntake    = null;
-    protected Servo   rightIntake   = null;
+    //protected Servo   leftIntake    = null;
+    //protected Servo   rightIntake   = null;
     protected Servo  rightPushWheel = null;
     protected Servo  leftPushWheel  = null;
 
@@ -98,6 +98,9 @@ public class Basic_Bot
         //leftIntake.setDirection(DcMotor.Direction.FORWARD);   // Positive input should suck in the cubes :D
         //rightIntake.setDirection(DcMotor.Direction.REVERSE);
 
+        //rightLift.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        //leftDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+
         // Set all motors to zero power
         leftDrive.setPower(0);
         rightDrive.setPower(0);
@@ -110,8 +113,8 @@ public class Basic_Bot
 
         // Define and initialize ALL installed servos.
         solarGrabber = hwMap.get(Servo.class, "solar_grabber");
-        leftIntake = hwMap.get(Servo.class, "left_intake");
-        rightIntake = hwMap.get(Servo.class, "right_intake");
+        //leftIntake = hwMap.get(Servo.class, "left_intake");
+        //rightIntake = hwMap.get(Servo.class, "right_intake");
         solarLift    = hwMap.get(Servo.class, "solar_lift");
         rightPushWheel  = hwMap.get(Servo.class, "right_push");
         leftPushWheel  = hwMap.get(Servo.class, "left_push");
@@ -119,8 +122,8 @@ public class Basic_Bot
         // MAYBE init servo positions
         solarGrabber.setPosition(CONTINUOUS_SERVO_STOP);
         solarLift.setPosition(0);
-        rightIntake.setPosition(CONTINUOUS_SERVO_STOP);
-        leftIntake.setPosition(CONTINUOUS_SERVO_STOP);
+        //rightIntake.setPosition(CONTINUOUS_SERVO_STOP);
+        //leftIntake.setPosition(CONTINUOUS_SERVO_STOP);
         leftPushWheel.setPosition(CONTINUOUS_SERVO_STOP);
         rightPushWheel.setPosition(CONTINUOUS_SERVO_STOP);
 

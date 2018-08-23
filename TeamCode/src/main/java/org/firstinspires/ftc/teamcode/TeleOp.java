@@ -118,6 +118,8 @@ public class TeleOp extends OpMode
         // region Lifting motors              (gp2)
 
         //double liftMotorsPower = Range.clip(gamepad1.right_stick_y, -1.0, 1.0);
+        //double rightLiftPosition = robo.rightLift.getCurrentPosition();
+        //double leftLiftPosition = robo.leftLift.getCurrentPosition();
 
         if(gamepad2.dpad_up){
             robo.rightLift.setPower(-1.0);
@@ -128,8 +130,8 @@ public class TeleOp extends OpMode
             robo.leftLift.setPower(-0.7);
         }
         else {
-            robo.rightLift.setPower(0);
-            robo.leftLift.setPower(0);
+            robo.rightLift.setPower(0.0);
+            robo.leftLift.setPower(0.0);
         }
 
         //endregion
@@ -184,7 +186,7 @@ public class TeleOp extends OpMode
 
         //region Intake servos       (gp2)
 
-        if(gamepad2.left_bumper){
+        /*if(gamepad2.left_bumper){
             robo.rightIntake.setPosition(robo.CONTINUOUS_SERVO_ANTI_CLOCKWISE);
             robo.leftIntake.setPosition(robo.CONTINUOUS_SERVO_CLOCKWISE);
         }
@@ -195,7 +197,7 @@ public class TeleOp extends OpMode
         else {
             robo.rightIntake.setPosition(robo.CONTINUOUS_SERVO_STOP);
             robo.leftIntake.setPosition(robo.CONTINUOUS_SERVO_STOP);
-        }
+        }*/
 
         //endregion
 
@@ -259,6 +261,8 @@ public class TeleOp extends OpMode
         //region Telemetry
 
         telemetry.addData("solar_servo position: ", servoArmPosition);
+        //telemetry.addData("right_lift position: ", rightLiftPosition);
+        //telemetry.addData("left_lift position: ", leftLiftPosition);
 
 
         //endregion
